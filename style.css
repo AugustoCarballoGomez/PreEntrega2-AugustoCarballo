@@ -1,0 +1,38 @@
+
+/* carrousel */
+#presentacion{
+    height: 600px !important;
+    margin-top: 100px;
+ 
+    
+/* formulario     */
+}
+.mapa{
+    width: 400px;
+    height: 400px;
+    
+}
+form{
+    display: flex;
+    max-width: 100%;
+    height: auto;
+}   
+footer{
+
+    width: 100%;
+}
+/* nosotros */
+#nosheader{
+    width: 100%;
+    height: 20vh;
+
+}
+#nosmain{
+    width: 100%;
+    height: 50vh;
+}
+#nosfooter{
+    width: 100%;
+    height: 30vh;
+}
+
