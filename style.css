@@ -35,8 +35,19 @@ footer{
     width: 100%;
     height: 30vh;
 }
-
+#
 #Productos{
     height: 30vh;
 }
+#productos_main{
+    height: auto;
+    margin-top: 200px;
+}
+#footer_productos{
+    height: auto;
+}
+#productos_main{
+    height: auto;
+}
+    
 
