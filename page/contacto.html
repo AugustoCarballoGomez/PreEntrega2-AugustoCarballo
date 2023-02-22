@@ -6,42 +6,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
 </head>
 <body>
 
-   
-
-        <h1 class="subpaginas">Informacion para contactar con el vendedor </h1>
-
-
-
-
-    <div class="contacto">
-        <a href="/index.html">Inicio</a>
-            <a href="/page/nosotros.html">Nosotros</a>
-            <a href="/page/contacto.html">Contacto </a>   
-            <a href="/page/productos.html">Productos</a>
-            <a href="/page/novedades.html">Novedades</a>
-    </div>
-
-    <footer id="footerc">  
-        <p class="envio">Realizamos envios a todo el pais, con la empresa que te quede mejor a vos  </p>
+    <header class="container bg-primary w-100 fixed-top" >
+        <div class="row d-flex text-center">            
+                 <div class="col text-center" >
+                 <h1 class="fs-1">ALL FOR GAMER</h1>
+             </div>    
+         
+             <div class="col" >
+                 
+                 <nav class="navbar navbar-expand-lg bg-primary">
+                     <div class="container-fluid">
+                       <a class="navbar-brand" href="/index.html">Inicio</a>
+                       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                         <span class="navbar-toggler-icon"></span>
+                       </button>
+                       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                         <div class="navbar-nav">
+                           <a class="nav-link" aria-current="page" href="/page/novedades.html">Novedades</a>
+                           <a class="nav-link" href="/page/nosotros.html">Nosotros</a>
+                           <a class="nav-link" href="/page/contacto.html">Contacto</a>
+                           <li class="nav-item dropdown">
+                             <a class="nav-link dropdown-toggle" href="/page/productos.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                               Lista de Productos
+                             </a>
+                             <ul class="dropdown-menu">
+                               <li><a class="dropdown-item" href="/page/productos.html">Componentes </a></li>
+                               <li><a class="dropdown-item" href="/page/productos.html">Consolas</a></li>
+                               <li><hr class="dropdown-divider"></li>
+                               <li><a class="dropdown-item" href="/page/productos.html">Escritorios</a></li>
+                             </ul>
+                           </li>
+                             
+                         </div>
+                       </div>
+                     </div>
+                   </nav>
+                 </div>  
+             </div>
         
-        <div class="volver">
-                <a href="#header">Inicio</a>
-                <a href="#">contacto </a>
-        </div>       
-        <div class="text">    
-        <textarea name="Comentarios" id="Comentarios" cols="30" rows="5">Comentarios sobre los productos</textarea>
-            <label for="Email">Correo Electronico</label>
-            <input type="email" name="Correo Electronico">
-            
-            
-            <Label>Nombre y apellido</Label>
-            <input type="text" name="Nombre" id="Nombre">
-            <input type="submit">
-        </div>
-
-    </footer>
+         </header>   
+     
+     <main id="nosmain">
+     
+     </main>
+     <footer id="nosfooter">
+     
+     </footer>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
